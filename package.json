@@ -1,0 +1,31 @@
+{
+  "name": "easymail",
+  "description": "a tool simplify our mail creatting-publishing processing",
+  "author": "leeluolee",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leeluolee/easymail"
+  },
+  "main": "./lib/index.js",
+  "bin": {
+    "easymail": "./bin/easymail"
+  },
+  "dependencies": {
+    "mcss": "0.3.x",
+    "commander": "2.0.0",
+    "jsdom": "0.8.x",
+    "nodemailer": "0.5.x",
+    "request": "*"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">0.6"
+  },
+  "scripts": {
+    "prepublish": "coffee",
+    "postinstall": "node",
+    "test": "node"
+  }
+}
